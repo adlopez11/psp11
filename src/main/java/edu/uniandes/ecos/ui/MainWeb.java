@@ -22,26 +22,26 @@ public class MainWeb extends HttpServlet {
       System.out.println("Calculo de Desviacion Estadar y Medidas de Estimacion\n");
         
         try {
-            resp.getWriter().print("\nArchivo de prueba " + file + "\n");
+            resp.getWriter().print("\nArchivo de prueba " + file + "\n\n");
             
             DesviationBiz biz = new DesviationBiz(FileUtil.getListNumbers(file));
             
-            resp.getWriter().print("Desviacion Estandar: " + biz.getSd()+"\n");
-            resp.getWriter().print("VS: " + biz.getVs());
-            resp.getWriter().print("S: " + biz.getS());
-            resp.getWriter().print("M: " + biz.getM());
-            resp.getWriter().print("L: " + biz.getL());
-            resp.getWriter().print("VL: " + biz.getVl());
+            resp.getWriter().print("Desviacion Estandar: " + biz.getSd()+"\n\n");
+            resp.getWriter().print("VS: " + biz.getVs()+"\n");
+            resp.getWriter().print("S: " + biz.getS()+"\n");
+            resp.getWriter().print("M: " + biz.getM()+"\n");
+            resp.getWriter().print("L: " + biz.getL()+"\n");
+            resp.getWriter().print("VL: " + biz.getVl()+"\n\n");
 
 
         } catch (FileNotFoundException ex) {
-            resp.getWriter().print("No se encuentra el archivo especificado, se debe ubicar en la carpeta /src/test/resources/");
+            resp.getWriter().print("No se encuentra el archivo especificado, se debe ubicar en la carpeta /src/test/resources/\n");
         } catch (IOException ex) {
-            resp.getWriter().print("Error al leer el archivo especificado");
+            resp.getWriter().print("Error al leer el archivo especificado\n");
         } catch (NumberFormatException ex) {
-            resp.getWriter().print("Existen lineas que no son numeros");
+            resp.getWriter().print("Existen lineas que no son numeros\n");
         }
-        resp.getWriter().print("\nFin de la aplicacion");
+        resp.getWriter().print("\nFin de la aplicacion\n");
   }
 
   public static void main(String[] args) throws Exception {
