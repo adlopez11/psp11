@@ -1,0 +1,205 @@
+LOC de Aplicaciones
+
+Aplicacion #1
+
+Nombre: psp0
+Numero de Clases: 6
+Total LOC: 122
+Clases:
+
+Nombre Clase: App
+LOC Clase: 27
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: main
+LOC Metodo: 20
+Nombre Clase: FileUtil
+LOC Clase: 24
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: getListNumbers
+LOC Metodo: 13
+Nombre Clase: MeanService
+LOC Clase: 16
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: calculateMean
+LOC Metodo: 10
+Nombre Clase: StandardDeviationService
+LOC Clase: 17
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: calculateStandardDeviation
+LOC Metodo: 11
+Nombre Clase: MeanServiceTest
+LOC Clase: 19
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: testCalculateMean
+LOC Metodo: 14
+Nombre Clase: StandardDeviationTest
+LOC Clase: 19
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: testCalculateMean
+LOC Metodo: 14
+
+
+Aplicacion #2
+
+Nombre: psp01
+Numero de Clases: 8
+Total LOC: 300
+Clases:
+
+Nombre Clase: FileBiz
+LOC Clase: 34
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: buscarProyectos
+LOC Metodo: 12
+Nombre Clase: FileManager
+LOC Clase: 86
+Numero de Metodos: 4
+Metodos:
+Nombre Metodo: analizarClase
+LOC Metodo: 41
+Nombre Metodo: isInicioMetodo
+LOC Metodo: 5
+Nombre Metodo: getNombreMetodo
+LOC Metodo: 6
+Nombre Metodo: getClase
+LOC Metodo: 3
+Nombre Clase: Main
+LOC Clase: 17
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: main
+LOC Metodo: 8
+Nombre Clase: MainWeb
+LOC Clase: 57
+Numero de Metodos: 2
+Metodos:
+Nombre Metodo: getLineasTotales
+LOC Metodo: 7
+Nombre Metodo: main
+LOC Metodo: 9
+Nombre Clase: PrintConsoleUtil
+LOC Clase: 38
+Numero de Metodos: 2
+Metodos:
+Nombre Metodo: imprimirConsola
+LOC Metodo: 22
+Nombre Metodo: getLineasTotales
+LOC Metodo: 7
+Nombre Clase: Aplicacion
+LOC Clase: 21
+Numero de Metodos: 4
+Metodos:
+Nombre Metodo: getNombre
+LOC Metodo: 3
+Nombre Metodo: setNombre
+LOC Metodo: 3
+Nombre Metodo: getClases
+LOC Metodo: 3
+Nombre Metodo: addMetodo
+LOC Metodo: 3
+Nombre Clase: Clase
+LOC Clase: 28
+Numero de Metodos: 6
+Metodos:
+Nombre Metodo: getNombre
+LOC Metodo: 3
+Nombre Metodo: setNombre
+LOC Metodo: 3
+Nombre Metodo: getMetodos
+LOC Metodo: 3
+Nombre Metodo: addMetodo
+LOC Metodo: 3
+Nombre Metodo: getLineas
+LOC Metodo: 3
+Nombre Metodo: setLineas
+LOC Metodo: 3
+Nombre Clase: Metodo
+LOC Clase: 19
+Numero de Metodos: 4
+Metodos:
+Nombre Metodo: getNombre
+LOC Metodo: 3
+Nombre Metodo: setNombre
+LOC Metodo: 3
+Nombre Metodo: getLineas
+LOC Metodo: 3
+Nombre Metodo: setLineas
+LOC Metodo: 3
+
+
+Aplicacion #3
+
+Nombre: psp1
+Numero de Clases: 8
+Total LOC: 338
+Clases:
+
+Nombre Clase: RegressionBiz
+LOC Clase: 55
+Numero de Metodos: 2
+Metodos:
+Nombre Metodo: getB1
+LOC Metodo: 14
+Nombre Metodo: getR
+LOC Metodo: 24
+Nombre Clase: Main
+LOC Clase: 44
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: main
+LOC Metodo: 32
+Nombre Clase: MainWeb
+LOC Clase: 53
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: main
+LOC Metodo: 9
+Nombre Clase: FileUtil
+LOC Clase: 29
+Numero de Metodos: 2
+Metodos:
+Nombre Metodo: getListNumbers
+LOC Metodo: 13
+Nombre Metodo: getPar
+LOC Metodo: 4
+Nombre Clase: ListUtil
+LOC Clase: 18
+Numero de Metodos: 0
+Metodos:
+Nombre Clase: MeanUtil
+LOC Clase: 16
+Numero de Metodos: 1
+Metodos:
+Nombre Metodo: calculateMean
+LOC Metodo: 10
+Nombre Clase: ParVO
+LOC Clase: 23
+Numero de Metodos: 4
+Metodos:
+Nombre Metodo: getX
+LOC Metodo: 3
+Nombre Metodo: setX
+LOC Metodo: 3
+Nombre Metodo: getY
+LOC Metodo: 3
+Nombre Metodo: setY
+LOC Metodo: 3
+Nombre Clase: RegressionTest
+LOC Clase: 100
+Numero de Metodos: 4
+Metodos:
+Nombre Metodo: test1
+LOC Metodo: 23
+Nombre Metodo: test2
+LOC Metodo: 23
+Nombre Metodo: test3
+LOC Metodo: 23
+Nombre Metodo: test4
+LOC Metodo: 23
